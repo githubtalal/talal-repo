@@ -1,1 +1,3 @@
-@extends('home');
+<?php
+include ('home.php');
+?>
