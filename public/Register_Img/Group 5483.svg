@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="484.693" height="431.853" viewBox="0 0 484.693 721.853">
+  <defs>
+    <filter id="Subtraction_36" x="0" y="0" width="484.693" height="721.853" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_5483" data-name="Group 5483" transform="translate(5173.5 5850.532)">
+    <g transform="matrix(1, 0, 0, 1, -5173.5, -5850.53)" filter="url(#Subtraction_36)">
+      <path id="Subtraction_36-2" data-name="Subtraction 36" d="M388.693,694.853H0V69A68.678,68.678,0,0,1,11.784,30.422a69.2,69.2,0,0,1,30.358-25A68.569,68.569,0,0,1,69,0H388.693a68.678,68.678,0,0,1,38.579,11.784,69.2,69.2,0,0,1,25,30.358A68.569,68.569,0,0,1,457.693,69V625.853a68.677,68.677,0,0,1-11.784,38.579,69.2,69.2,0,0,1-30.358,25A68.569,68.569,0,0,1,388.693,694.853ZM229.661,12.1a14.67,14.67,0,1,0,14.672,14.669A14.685,14.685,0,0,0,229.661,12.1Z" transform="translate(13.5 13.5)" fill="#fff"/>
+    </g>
+    <path id="Path_461" data-name="Path 461" d="M988.36,257.977s-1.985-5.172.512-15.7" transform="translate(-5922.249 -6080.65)" fill="none" stroke="#3d3d3d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="6"/>
+    <path id="Path_5824" data-name="Path 5824" d="M988.172,257.977s2.168-5.172-.56-15.7" transform="translate(-5914.94 -6080.65)" fill="none" stroke="#3d3d3d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="6"/>
+  </g>
+</svg>
