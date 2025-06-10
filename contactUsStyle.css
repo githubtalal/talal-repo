@@ -1,0 +1,177 @@
+:root {
+    --bg-black: #141414;
+    --bg-dark: #1A1A1A;
+    --text-gray: #98989A;
+    --text-white: #FFFFFF;
+    --border-dark: #333333;
+}
+
+.first-container {
+    background-color: var(--bg-black);
+}
+
+    .first-container .contact-card:not(:first-of-type) {
+        padding: 40px;
+    }
+
+    .first-container .contact-card:first-of-type {
+        padding: 40px 40px 40px 0;
+    }
+
+    .first-container .contact-card h6 {
+        margin-bottom: 40px;
+        color: var(--text-white);
+    }
+
+    .first-container .contact-card p {
+        color: var(--text-gray);
+        margin-bottom: 40px;
+    }
+
+    .first-container .contact-card button {
+        margin-bottom: 20px;
+        color: var(--text-gray);
+        border-radius: 8px;
+        background-color: var(--bg-dark);
+        border: none;
+        padding: 10px;
+        transition: 0.3s linear;
+    }
+
+        .first-container .contact-card button:hover {
+            background-color: var(--text-gray);
+            color: var(--bg-dark);
+        }
+
+        .first-container .contact-card .btn-container button {
+            padding-inline: 13px;
+            margin-right: 8px;
+        }
+
+
+.second-container .container > div:first-of-type {
+    padding-right: 40px;
+}
+
+.second-container .container > div:last-of-type {
+    padding: 40px;
+}
+
+.second-container .container > div:first-of-type img {
+    margin-bottom: 30px;
+}
+
+.second-container .container > div:last-of-type button[type="submit"] {
+    float: right;
+    padding: 10px 40px;
+    background-color: #FFD11A;
+    color: black;
+    border-radius: 8px;
+    border: none;
+    transition: 0.3s linear;
+}
+    .second-container .container > div:last-of-type button[type="submit"]:hover {
+        transform: scale(1.1);
+        background-color: orangered;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+
+    .second-container h1,
+    .second-container label {
+        color: var(--text-white);
+    }
+
+.second-container input::placeholder,
+.second-container textarea::placeholder {
+    color: var(--text-gray);
+}
+
+.second-container input,
+.second-container textarea {
+    background-color: var(--bg-dark);
+    border: none;
+}
+
+.second-container {
+    border-top: 1px solid var(--border-dark);
+    background-color: var(--bg-black);
+    border-bottom: 1px solid var(--border-dark);
+}
+
+
+.third-container .container > div:first-of-type {
+    padding: 40px 40px 40px 0;
+}
+
+.third-container .container > div:last-of-type {
+    padding: 40px;
+    width: 70%;
+}
+
+    .third-container .container > div:last-of-type > div {
+        padding: 20px;
+        background-color: var(--bg-dark);
+        margin-bottom: 25px;
+        border-radius: 8px;
+    }
+
+.third-container h3,
+.third-container h6 {
+    color: var(--text-white);
+}
+
+    .third-container h6 {
+        width: 90%;
+    }
+
+    .third-container p {
+        color: var(--text-gray);
+    }
+
+.third-container button {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    color: var(--text-gray);
+    background-color: var(--bg-dark);
+}
+
+    .third-container button:hover {
+        background-color: var(--text-gray);
+        color: var(--bg-dark);
+    }
+
+   
+
+    .third-container {
+        background-color: var(--bg-black);
+    }
+
+.third-container hr {
+    color: var(--text-gray);
+}
+
+    .third-container img[src="images/questionIcon.png"] {
+        margin-bottom: 35px;
+    }
+
+    .third-container .container > div:first-of-type p {
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    .third-container .collap {
+        transition: 1s linear;
+        opacity: 1;
+    }
+
+        .third-container .collap.hide {
+            opacity: 0;
+            display: none;
+        }
+
+.third-container .container > div:last-of-type img{
+    cursor: pointer;
+}
